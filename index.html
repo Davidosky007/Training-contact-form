@@ -222,15 +222,17 @@
           please get in touch</h3>
       </div>
       <div class="right-sect">
-        <form action="" method="post">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="Firstname" placeholder="First Name" maxlength="30">
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="Lastname" placeholder="Last Name" maxlength="30">
-          <input type="email" id="email" name="email" placeholder="Email Address" required>
+        <form action="https://formspree.io/f/mleajywy" method="post">
+          <div class="name-sect">
+            <input type="text" id="fname" name="Firstname" placeholder="First Name" maxlength="30" required>
+            <input type="text" id="lname" name="Lastname" placeholder="Last Name" maxlength="30" required>
+          </div>
+          <div class="email-sect">
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+          </div>
           <textarea id="message" name="message" placeholder="Hello Mariane. Glad to see you!"
             maxlength="500"></textarea>
-          <input type="submit" value="Get in Touch">
+          <input type="submit" class="link btn-link" value="Get in Touch">
         </form>
       </div>
     </div>
