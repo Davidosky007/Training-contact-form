@@ -333,6 +333,7 @@ footer {
   padding: 30px;
   margin: 0 auto;
 }
+
 .left-sect {
   width: 40%;
 }
@@ -341,12 +342,14 @@ footer {
   display: inline-block;
   margin: 10px;
 }
+
 .name-sect {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
 }
+
 .footer-header {
   font-size: 40px;
   line-height: 52px;
@@ -371,7 +374,7 @@ footer {
   font-family: 'Roboto', sans-serif;
   color: #979493;
   border: none;
-  border-bottom: 1px solid #DBD8D7;
+  border-bottom: 1px solid hsl(15, 5%, 85%);
   width: 300px;
   margin: 10px;
   padding: 15px;
@@ -388,7 +391,7 @@ footer {
   padding: 15px;
   margin: 10px;
   outline: none;
-  border-bottom: 1px solid #DBD8D7;
+  border-bottom: 1px solid hsl(15, 5%, 85%);
   width: 300px;
 }
 
@@ -406,7 +409,7 @@ footer {
   padding: 15px;
   margin: 15px;
   outline: none;
-  border-bottom: 1px solid #DBD8D7;
+  border-bottom: 1px solid hsl(15, 5%, 85%);
   width: 96%;
   margin-bottom: 10px;
   font-style: normal;
@@ -418,13 +421,13 @@ textarea {
   align-items: center;
   line-height: 24px;
   font-family: 'Roboto', sans-serif;
-  color: #3C3A39;
+  color: #3c3a39;
   border: none;
-  width: 96%;
+  width: 98%;
   margin: 10px;
   padding: 15px;
   outline: none;
-  background: #FBF8F7;
+  background: hsl(15, 33%, 98%);
   height: 200px;
 }
 
