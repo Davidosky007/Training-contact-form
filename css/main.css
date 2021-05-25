@@ -434,3 +434,30 @@ textarea {
 .btn-link {
   margin-left: 15px;
 }
+
+@media only screen and (max-width: 768px) {
+  .contact-main {
+    display: inline-block;
+  }
+
+  .footer-header {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center
+  }
+
+  .name-sect {
+    display: block;
+  }
+
+  .right-sect {
+    max-width: 100%;
+  }
+}
